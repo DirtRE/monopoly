@@ -1,0 +1,831 @@
+@charset "UTF-8";
+
+header .statistika .limit {
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+
+@media (max-width : 1240px) {
+    .limit {
+        width: 1010px;
+    }
+    header .statistika .fon {
+        transform: skew(19deg);
+    }
+    header .statistika .fon::after,
+    header .statistika .fon .name .rotate,
+    header .statistika .fon .days,
+    header .statistika .fon .results .reg .text{
+         transform: skew(-19deg);
+    }
+    header .text_on_head .man_logo {
+        left: -100px;
+    }
+    .content .cards_container .col-1-4 {
+        width: 27%;
+    }
+    header .statistika.stat .block_container {
+        width: 95%;
+    }
+    header .statistika.stat .block_container .block_center {
+        width: 65%;
+    }
+    header .statistika.stat .block_container .block_center,
+    header .statistika.stat .block_container .block_right {
+        padding: 10px 0 0;
+    }
+    header .statistika.stat .fon {
+        width: 92%;
+    }
+    header .statistika.stat {
+        margin-left: -10px;
+    }
+    .level_ref .left_side, .level_ref .right_side {
+        font-size: 16px;
+    }
+    .statistika {
+        padding: 0;
+    }
+    .statistika .my_ref {
+        margin-right: 20px;
+        width: 230px;
+    }
+    .statistika .my_stat .static {
+    margin: 12px 0 0 10px;
+    width: 100%;
+    }
+    .statistika .my_stat {
+        margin-right: 20px;
+        width: 235px;
+    }
+    .statistika .my_money {
+        margin-right: 20px;
+        width: 250px;
+    }
+    .statistika .static_head span {
+    margin-left: 20px;
+    }
+    .news .head .date {
+        margin-left: 26%;
+    }    
+}
+/* -------------------------------------------------------------------- */
+@media (max-width : 1023px) {
+    .limit {
+        width: 1000px;
+    }
+/* -------------------------------------------------------------------- */
+    header .menu_fon .head_menu li {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    header .text_on_head h1 {
+        font-size: 27px;
+    }
+    header .text_on_head .man_logo .man {
+        height: 303px;
+        width: 274px;
+    }
+    header .text_on_head .man_logo {
+        left: -64px;
+        top: 27px;
+    }
+    header .text_on_head .man_logo .money {
+        left: -399px;
+        top: -333px;
+    }
+    header {
+        height: 815px;
+    }
+    header .statistika {
+        padding-top: 245px;
+    }
+    .play_button {
+        margin-top: 30px;
+        height: 148px;
+    }
+    header .statistika .limit {
+    overflow: visible;
+    }
+    header .statistika .fon .results {
+        padding: 0 10px;
+    }
+    header .statistika .fon {
+         width: 615px;
+        height: 210px;
+    }
+    header .statistika .fon .results .reg {
+         padding-bottom: 10px;
+         font-size: 14px;
+    }
+    header .statistika .fon .days {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    header .statistika .fon .name {
+        line-height: 40px;
+        width: 270px;
+    }
+    header .statistika .fon .name .rotate span {
+        font-size: 24px;
+    }
+    header .statistika .fon .results .reg .stat_line {
+        width: 275px;
+    }
+    header .statistika .fon .results .reg .text {
+        width: 290px;
+    }
+    .play_button .play, .play_button .reg, .play_button .enter {
+         line-height: 120px;
+          width: 140px;
+    }
+    .content .cards_container .col-1-4 .txt {
+        font-size: 15px;
+    }
+    .content .cards_container .col-1-4 .comment .per_month {
+        font-size: 13px;
+    }
+    .content .cards_container .col-1-4 .comment .profit {
+        font-size: 13px;
+    }
+    .content .cards_container .col-1-4 .price_buy {
+        font-size: 13px;
+    }
+    .content .cards_container .col-1-4 .price_buy .buy {
+        margin-right: -10px;
+        width: 87px;
+    }
+    header .text_on_head .man_logo.other_logo {
+        left: -45px;
+    }
+    header .text_on_head .man_logo.other_logo .money {
+        left: -355px;
+    }
+    header .statistika.stat .block_container .days {
+        font-size: 16px;
+    }
+    header .statistika.stat .fon {
+        height: 126px;
+        left: 30px;
+    }
+    header .statistika.stat .fon .name {
+        padding-left: 115px;
+    }
+    header .statistika.stat .block_container {
+        padding-left: 111px;
+    }
+    header .statistika.stat .block_container .days {
+        font-size: 16px;
+    }
+    header .statistika.stat .block_container .block_center .reg,
+    header .statistika.stat .block_container .block_right .reg {
+         font-size: 14px;
+    }
+    .news .news_field {
+        padding: 20px 25px;
+    }
+    header .statistika.stat .block_container .block_center,
+    header .statistika.stat .block_container .block_right {
+        margin: 0 18px;
+    }
+    .news .head .date {
+    margin-left: 20%;
+    }
+    .statistika .kartinka {
+        display: none;
+    }
+    .statistika .my_money {
+        margin-right: 0;
+        width: 183px;
+    }
+    .statistika .static_head {
+        text-align: center;
+    }
+    .statistika .static_head span {
+        display: block;
+        margin-left: 0;
+    }
+    .cards_selekt .cards_container .col-1-4 {
+        width: 29%;
+    }
+    .cards_selekt .cards_container .col-1-4 .comment .per_month {
+        font-size: 13px;
+    }
+    .cards_selekt .cards_container .col-1-4 .comment .profit {
+        font-size: 13px;
+    }
+    .cards_selekt .cards_container .col-1-4 .price_buy {
+        font-size: 15px;
+    }
+    .cards_selekt .cards_container .col-1-4 .price_buy .monetki {
+        margin-left: 5px;
+    }
+    .level_ref .left_side, .level_ref .right_side {
+         font-size: 12px;
+    }
+    .level_ref .left_side {
+    margin-right: 10px;
+    }
+    .cont_bl {
+        display: block;
+    }
+    .cont_bl .l_side, .cont_bl .r_side {
+        width: 100%;
+        display: block;
+    }
+    .cont_bl .l_side .ref_first_level span,
+    .cont_bl .l_side .ref_second_level span {
+        text-align: center;
+        padding: 0;
+    }
+    .cont_bl .l_side .ref_first_level .user_info,
+    .cont_bl .l_side .ref_second_level .user_info {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .cont_bl .l_side .ref_link span {
+        padding: 5px 0 0 30px;
+    }
+    .cont_bl .l_side .ref_link .your_link,
+    .cont_bl .l_side .ref_link .your_number {
+        margin-left: 31px;
+    }
+    .number {
+        margin-bottom: 10px;
+    }
+    .cont_bl .l_side .ref_link  {
+        margin-top: 0;
+    }
+    .ex_business .obmen {
+        width: 100%;
+    }
+    .ex_business .obmen .obertka .left_img {
+        height: 160px;
+        width: 160px;
+    }
+    .ex_business .obmen .obertka .left_img img {
+        bottom: 22px;
+        left: -37px;
+        width: 200px;
+    }
+    .ex_business .obmen .obertka {
+        top: -19px;
+        left: -18px;
+    }
+    .ex_business .obmen .obertka::before {
+        left: 79px;
+    }
+    .ex_business .obmen .right_img {
+        height: 160px;
+        width: 160px;
+        top: -14px;
+        left: 10px;
+    }
+    .ex_business .obmen .right_img img {
+        bottom: -14px;
+        width: 187px;
+    }
+    .ex_business .obmen .right_img::before {
+         left: 85px;
+    }
+    .ex_cash .obmen {
+        width: 100%;
+    }
+    .ex_cash .obmen .obertka .left_img, .ex_cash .obmen .right_img {
+        height: 160px;
+        width: 160px;
+    }
+    .ex_cash .obmen .obertka .left_img img {
+        bottom: 20px;
+        left: -38px;
+        width: 200px;
+    }
+    .ex_cash .obmen .right_img img {
+        width: 180px;
+    }
+    .ex_cash .obmen .obertka {
+        top: -19px;
+        left: -16px;
+    }
+    .ex_cash .obmen .right_img {
+        top: -19px;
+        left: 18px;
+    }
+    .ex_cash .obmen .obertka::before {
+        left: 78px;
+    }
+    .ex_cash .obmen .right_img::before {
+        left: 77px;
+    }
+    .block_rating .support table {
+        width: 100%;
+    }
+    .block_rating .support {
+        width: 100%;
+    }
+    .kontacts {
+         padding: 0 25px;
+    }
+    .block_rating .head {
+        padding-top: 3px;
+        font-size: 21px;
+    }
+}
+/* ----------------------------------------------------------- */
+@media (max-width : 1001px) {
+    .limit {
+        width: 755px;
+    }
+/* ----------------------------------------------------------- */
+
+    header .menu_fon .head_menu li {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    header .top_part .menu .logo {
+        height: 35px;
+        width: 153px;
+        background-size: cover;
+    }
+    header .top_part .menu .forma_vhoda .buttonI {
+    margin-right: 5px;
+    }
+    header .top_part .menu .forma_vhoda .buttonI, header .top_part .menu .forma_vhoda .buttonII {
+        width: 135px;
+    }
+    header .text_on_head h1 {
+    font-size: 20px;
+    }
+    header .menu_fon {
+        margin-bottom: 35px;
+    }
+    .play_button .button {
+        font-size: 13px;
+    }
+    .play_button .play {
+        font-size: 20px;
+    }
+    .play_button .play, .play_button .reg, .play_button .enter {
+        line-height: 90px;
+        width: 110px;
+    }
+    .play_button::after {
+        margin: -55px 0 0 -36px;
+    }
+    header .text_on_head .man_logo .money {
+    left: -497px;
+    top: -410px;
+    }
+    header .text_on_head .man_logo .man {
+    height: 223px;
+    width: 203px;
+    }
+    header .text_on_head .man_logo {
+    left: -40px;
+    top: -15px;
+    }
+    .play_button {
+        margin-top: 0;
+        margin-left: -60px;
+    }
+    header .statistika .fon {
+    transform: skew(0deg);
+    }
+    header .statistika .fon::after, header .statistika .fon .name .rotate, header .statistika .fon .days, header .statistika .fon .results .reg .text {
+    transform: skew(0deg);
+    }
+    header .statistika {
+    padding-top: 145px;
+    }
+    .content .cards_container .col-1-4 .price_buy .buy {
+    margin-right: -40px;
+    width: 133px;
+    }
+    .content .cards_container .col-1-4 {
+    width: 37%;
+    }
+    header {
+        height: auto;
+        padding-bottom: 1px;
+    }
+    .statistika {
+        margin-bottom: 20px;
+    }
+    header .statistika.stat {
+        padding-top: 30px;
+    }
+    header .text_on_head .man_logo.other_logo {
+        top: -12px;
+    }
+    .level_ref .left_side, .level_ref .right_side {
+    font-size: 22px;
+    width: 95%;
+    }
+    .level_ref .left_side {
+        margin: 0 0 20px 0;
+    }
+}
+/* ----------------------------------------------------------- */
+@media (max-width : 756px) {
+    .limit {
+        width: 635px;
+    }
+/* ----------------------------------------------------------- */
+    header .statistika .fon {
+        width: 100%;
+        height: 336px;
+    }
+    header .statistika .fon .name {
+        width: 100%;
+        margin: 0;
+    }
+    header .statistika .fon .days {
+        width: 100%;
+    }
+    header .statistika .fon .results .reg {
+        text-align: center;
+    }
+    header .statistika .fon .results .reg .text {
+        margin-bottom: 5px;
+    }
+    header .statistika .fon .results .reg .stat_line {
+        width: 95%;
+    }
+    header .statistika .fon::after {
+        height: 87%;
+        top: 41px;
+    }
+    .content .cards_container .col-1-4 {
+    width: 45%;
+    }
+    header .statistika.stat .block_container .block_center,
+    header .statistika.stat .block_container .block_right {
+        margin: 0;
+    }
+    header .statistika.stat .block_container {
+    width: 100%;
+    }
+    .block_rating .head {
+    font-size: 18px;
+    padding-top: 7px;
+    }
+    .opisanie .prices .places {
+    margin-right: 15px;
+    padding-top: 36px;
+    width: 42%;
+    }
+    .opisanie .prices {
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+    .news .head .date {
+        margin-left: 16%;
+        line-height: 26px;
+    }
+    .level_ref .left_side, .level_ref .right_side {
+        font-size: 19px;
+    }
+    .statistika {
+        display: block;
+    }
+    .statistika .my_ref {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    }
+    .statistika .my_ref .navigation {
+        height: 40px;
+        padding-top: 6px;
+        margin-bottom: 15px;
+    }
+    .statistika .my_stat, .statistika .my_money {
+        display: inline-block;
+        width: 45%;
+    }
+    .statistika .static_head span {
+        display: inline-block;
+    }
+    .statistika .knopki {
+        margin: 36px auto;
+    }
+    .statistika .my_money {
+        vertical-align: top;
+    }
+    .cards_selekt .cards_container .col-1-4:nth-child(even) {
+        margin-right: 0;
+    }
+    .cards_selekt .cards_container .row {
+        text-align: center;
+    }
+    .cards_selekt .cards_container .col-1-4 {
+         width: 46%;
+         margin: 0 5px 35px 0;
+    }
+    .ex_business .obmen .obertka,
+    .ex_business .obmen .right_img,
+    .ex_cash .obmen .obertka,
+    .ex_cash .obmen .right_img {
+        display: none;
+    }
+    .ex_business .obmen .center form {
+        width: 100%;
+    }
+    .ex_business .obmen .center {
+        width: 60%;
+    }
+    .ex_business .obmen .center input[type="text"], .ex_cash .obmen .center input[type="text"] {
+        width: 100%;
+    }
+    .ex_business .obmen .center input[type="submit"], .ex_cash .obmen .center input[type="submit"] {
+        font-size: 20px;
+        height: 50px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .ex_cash .obmen .center {
+        width: 60%;
+    }   
+}
+/* ----------------------------------------------------------- */
+@media (max-width : 636px) {
+    .limit {
+        width: 470px;
+    }
+/* ----------------------------------------------------------- */
+    header .statistika .fon, header .text_on_head .man_logo {
+        display: none;
+    }
+    header .top_part .menu .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    header .menu_fon .head_menu ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #aa51aa;
+    }
+    header .menu_fon .head_menu li {
+        display: block;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+    .hide_menu {
+        display: block;
+        height: 50px;
+        position: relative;
+        width: 100%;
+        line-height: 50px!important;
+        font-size: 30px;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .content .rule_of_game {
+        padding: 0;
+    }
+    .content .cards_container .col-1-4 {
+    width: 80%;
+    }
+    .content .cards_container .col-1-4 .price_buy {
+    font-size: 20px;
+    }
+    .content .cards_container .col-1-4 .price_buy .buy {
+        width: 165px;
+    }
+    .content .cards_container .col-1-4 .img_container:hover {
+        transform: none;
+    }
+    .play_button {
+        margin-top: 20px;
+    }
+    .block_rating .head {
+        padding-left: 10px;
+    }
+    .news .head .date {
+        margin-left: 35%;
+    }
+    .news .head .date {
+        display: none;
+    }
+    .statistika .my_stat, .statistika .my_money {
+        display: block;
+        width: 100%;
+    }
+    .statistika .my_stat .static {
+        padding: 10px;
+    }
+    .statistika .my_stat .static {
+    margin: 12px 0 5px 10px;
+    }
+    .statistika .knopki {
+        width: 55%;
+    }
+    .cards_selekt .cards_container .col-1-4 {
+        width: 80%;
+    }
+    .cards_selekt .cards_container .col-1-4 .img_container:hover {
+        transform: none;
+    }
+    .system_container .plat_systems li {
+    display: block;
+    padding: 10px;
+    }
+    .history_container .table_container  {
+        overflow: scroll;
+    }
+    .cont_bl .l_side .ref_link .your_link, .cont_bl .l_side .ref_link .your_number {
+        margin: 0;
+    }
+    .cont_bl .r_side .banner_size .textt {
+        font-size: 16px;
+    }
+    .button_zap, .zapros, .zapros input[type="file"] {
+        width: 100%;
+    }
+    .viplati_container {
+        overflow: scroll;
+    }
+    .viplati_container .table_container table, .history_container .table_container table {
+        margin: 50px 0 15px;
+    }
+    .opisanie .prices .risunok {
+        display: none;
+    }
+    .opisanie .prices .places {
+        padding-left: 100px;
+        width: 100%;
+    }
+    .block_rating .fix .head  {
+        height: 60px;
+    }
+    .ex_business .head_block, .ex_cash .head_block {
+        width: 100%;
+    }
+    header .top_part .menu .forma_vhoda .reg_form .top_text,
+    header .top_part .menu .forma_vhoda .enter_form .top_text {
+        font-size: 14px;
+        line-height: 35px;
+    }
+    header .top_part .menu .forma_vhoda .reg_form, header .top_part .menu .forma_vhoda .enter_form {
+        top: 100px;
+    }
+    header .top_part .menu .forma_vhoda .reg_form {
+        right: 90px;
+    }    
+}
+/* ----------------------------------------------------------- */
+@media (max-width : 472px) {
+    .limit {
+        width: 315px;
+    }
+/* ----------------------------------------------------------- */
+    header .top_part .menu .forma_vhoda {
+        display: block;
+        float: none;
+    }
+    header .top_part .menu .forma_vhoda .buttonI,
+    header .top_part .menu .forma_vhoda .buttonII {
+        width: 240px;
+         margin: 0 0 5px;
+    }
+    header .menu_fon .head_menu {
+        text-align: left;
+    }
+    .hide_menu span {
+        margin-left: 55%;
+    }
+    .play_button {
+        display: none;
+    }
+    header {
+        padding-bottom: 10px;
+    }
+    header .statistika {
+        display: none;
+    }
+    .content .slider_container {
+        display: none;
+    }
+    .content {
+        padding: 15px 0 0;
+    }
+    h2 {
+        margin-bottom: 15px;
+    }
+    .content .cards_container .col-1-4 {
+        width: 90%;
+    }
+    .content .cards_container .col-1-4 .price_buy {
+    font-size: 15px;
+    }
+    .content .cards_container .col-1-4 .price_buy .buy {
+        margin-right: -18px;
+        width: 154px;
+    }
+    .block_rating {
+        padding-top: 20px;
+    }
+    .limit {
+    padding: 0 10px;
+    }
+    .news .news_field {
+    padding: 0 25px;
+    }
+    footer .sections .plat_systems li {
+        display: table-cell;
+    }
+    .block_rating .head {
+        font-size: 16px;
+    }
+    .block_rating .head {
+        margin-bottom: 10px;
+    }
+    .block_rating .table_container table {
+        margin: 10px 0 20px;
+    }
+    .table_container {
+        overflow: scroll;
+    }
+    .block_rating .table_container {
+        margin: -60px -20px -3px;
+        transform: scale(0.85);
+    }
+    .block_rating .history_container  .table_container {
+        margin: 0px -20px -3px;
+    }
+    .system_container {
+        margin: 25px 0 30px;
+    }
+    .cont_bl .l_side .ref_first_level .user_info .inf,
+    .cont_bl .l_side .ref_second_level .user_info .inf {
+        font-size: 14px;
+    }
+    .cont_bl .l_side .ref_link .your_link,
+    .cont_bl .l_side .ref_link .your_number {
+        width: 100%;
+    }
+    .cont_bl .r_side .banner_size .bannerI, .cont_bl .r_side .banner_size .bannerII, .cont_bl .r_side .banner_size .bannerIII {
+        display: block;
+    }
+    .cont_bl .r_side .banner_size .bannerI .razmer, .cont_bl .r_side .banner_size .bannerII .razmer, .cont_bl .r_side .banner_size .bannerIII .razmer {
+        display: block;
+    }
+    .cont_bl .r_side .banner_size .bannerI .picture {
+        width: 100%;
+    }
+    .block_rating .support {
+        overflow: scroll;
+    }
+    .block_rating .fix .head {
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .opisanie .prices .places {
+        padding-left: 35px;
+        padding-top: 0;
+    }
+    .opisanie .discrybe {
+        margin-bottom: 7px;
+    }
+    .ex_business .obmen .center {
+        margin: 0 10px;
+        width: 90%;
+    }
+    header .top_part .menu .forma_vhoda .reg_form, header .top_part .menu .forma_vhoda .enter_form {
+    top: 130px;
+    right: 10px;
+    }
+    header .top_part .menu .forma_vhoda .reg_form {
+        right: 10px;
+    }
+    header .top_part .menu .forma_vhoda .reg_form .top_text,
+    header .top_part .menu .forma_vhoda .enter_form .top_text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    header .top_part .menu .forma_vhoda .reg_form .select_socseti .seti_position .vk,
+    header .top_part .menu .forma_vhoda .reg_form .select_socseti .seti_position .fb,
+    header .top_part .menu .forma_vhoda .reg_form .select_socseti .seti_position .ok,
+    header .top_part .menu .forma_vhoda .enter_form .select_socseti .seti_position .vk,
+    header .top_part .menu .forma_vhoda .enter_form .select_socseti .seti_position .fb,
+    header .top_part .menu .forma_vhoda .enter_form .select_socseti .seti_position .ok {
+        margin: 9px 25px 10px;
+    }
+    header .top_part .menu .forma_vhoda .reg_form .select_socseti,
+    header .top_part .menu .forma_vhoda .enter_form .select_socseti {
+        border-bottom: 1px solid #bbb9b7;
+        height: 90px;
+    }
+    header .top_part .menu .forma_vhoda .reg_form .select_socseti .seti_position,
+    header .top_part .menu .forma_vhoda .enter_form .select_socseti .seti_position {
+        padding: 0;
+    }
+}
+
+
+
+
